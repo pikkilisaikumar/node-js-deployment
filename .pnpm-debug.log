@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: instll",
+      "code": "ENOENT",
+      "stack": "Error: not found: instll\n    at getNotFoundError (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:41491:51)\n    at Function.whichSync [as sync] (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:41568:13)\n    at getCommandAbsolutePathSync (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:43133:44)\n    at default_1 (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:43142:32)\n    at /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:175683:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/home/workspace/reactjs/sessions/Lists-and-Keys",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: instll",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: instll\n    at getNotFoundError (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:41491:51)\n    at Function.whichSync [as sync] (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:41568:13)\n    at getCommandAbsolutePathSync (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:43133:44)\n    at default_1 (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:43142:32)\n    at /usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.25.1/node_modules/pnpm/dist/pnpm.cjs:175683:39"
+    }
+  }
+}

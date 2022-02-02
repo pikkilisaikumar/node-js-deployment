@@ -1,0 +1,23 @@
+.table-styling {
+  border: 2px solid red;
+}
+.table-styling-one {
+  border: 2px solid green;
+}
+td {
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+  background-color: pink;
+  color: white;
+}
+/* these are the tag selectors */
+.container-one {
+  display: flex;
+  justify-content: center;
+}
